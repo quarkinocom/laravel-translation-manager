@@ -1,0 +1,28 @@
+{
+  "name": "quarkinocom/laravel-translation-manager",
+  "description": "A Laravel Artisan command package to manage and automate language translations, leveraging OpenAI for high-quality translations.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hadi Rezaei",
+      "email": "hadi@quarkino.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "YourVendor\\TranslationManager\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.3|^8.0|^8.1",
+    "illuminate/support": "^6.0|^7.0|^8.0|^9.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Quarkinocom\\TranslationManager\\TranslationManagerServiceProvider"
+      ]
+    }
+  }
+}
